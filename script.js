@@ -5,7 +5,12 @@ gitHubRequest.onreadystatechange = function () {
     gitReposArray = JSON.parse(this.responseText);
     for (let i = 0; i < gitReposArray.length; i++) {
       let newLi = document.createElement("li");
-      newLi.innerHTML = gitReposArray[i].name;
+      newLi.innerHTML =
+        "<a href='https://raw.githack.com/JadRusus/" +
+        gitReposArray[i].name +
+        "/main/index.html' target='_blank'>" +
+        gitReposArray[i].name +
+        "</a>";
       document.getElementById("repoName").appendChild(newLi);
     }
   }
