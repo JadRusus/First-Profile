@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <title>Personal Website</title>
+  </head>
+
+  <body>
+    <div class="wraper">
+      <div class="container">
+        <header>
+          <div class="headerLeft">
+            <h1>Amjad Arab</h1>
+            <h3>Web Developer</h3>
+            <div class="socialLinks">
+              <a
+                class="icons"
+                href="https://github.com/JadRusus"
+                target="_blank"
+                ><div class="bi bi-github"></div
+              ></a>
+              <a
+                class="icons"
+                href="https://www.linkedin.com/in/amjadarab7"
+                target="_blank"
+                ><div class="bi bi-linkedin"></div
+              ></a>
+              <a
+                class="icons"
+                href="https://twitter.com/AmjadArab"
+                target="_blank"
+                ><div class="bi bi-twitter"></div
+              ></a>
+              <a
+                class="icons"
+                href="https://www.facebook.com/amjad.arab1"
+                target="_blank"
+                ><div class="bi bi-facebook"></div
+              ></a>
+              <a
+                class="icons"
+                href="https://www.instagram.com/amjadarab/"
+                target="_blank"
+                ><div class="bi bi-instagram"></div
+              ></a>
+            </div>
+          </div>
+          <div class="headerRight">
+            <img
+              class="AmjadPhoto"
+              src="https://scontent.fist2-3.fna.fbcdn.net/v/t1.6435-9/122825976_3456659577732901_7524076586273474794_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=gsS1hmf1WzoAX--eyYT&_nc_ht=scontent.fist2-3.fna&oh=00_AfCXqjtWvSOw8g3JuYosuWzsxEapg25pyCeX3KMz4PhLPQ&oe=63F69A94"
+            />
+          </div>
+        </header>
+      </div>
+      <div class="container">
+        <article class="skills">
+          <h2>Technical Skills</h2>
+          <ul>
+            <li id="li1">HTML/CSS</li>
+            <p id="p1" class="hidden">
+              Understanding of HTML and CSS knowledge of semantic HTML, CSS
+              selectors, layout techniques and responsive design.
+            </p>
+            <li id="li2">JavaScript</li>
+            <p id="p2" class="hidden">
+              Knowledge of JavaScript syntax, data types and basic concepts such
+              as variables, loops, functions and event handling.
+            </p>
+            <li id="li3">Git</li>
+            <p id="p3" class="hidden">
+              Familiarity working with github and gitkraken.
+            </p>
+            <li id="li4">Responsive design</li>
+            <p id="p4" class="hidden">
+              Understanding of grid layout, flexbox and media queries.
+            </p>
+            <li id="li5">jQuery</li>
+            <p id="p5" class="hidden">Basic knowledge of jQuery practices.</p>
+            <li id="li6">JSON</li>
+            <p id="p6" class="hidden">Familiarity working with JSON files.</p>
+            <li id="li7">Command Line Interface</li>
+            <p id="p7" class="hidden">
+              Familiarity working with Command Line Interface.
+            </p>
+          </ul>
+        </article>
+        <article class="git">
+          <h2>list of github repositories</h2>
+          <ul id="repoName"></ul>
+        </article>
+      </div>
+      <footer>
+        <div class="bi bi-envelope"></div>
+        <div>
+          <a id="mail" href="mailto:amjad.arab7@gmail.com"
+            >amjad.arab7@gmail.com</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
